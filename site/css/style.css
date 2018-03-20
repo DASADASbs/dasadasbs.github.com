@@ -8,23 +8,32 @@ body {
 }
 
 header {
-    height: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    height: 250px;
 }
 
 header > img {
+    position: absolute;
+    left: 0;
+    align-self: flex-start;
     display: inline-block;
+    height: 250px;
 }
 
 .text {
-    display: inline-block;
 }
 
 .text > h1 {
-
+    font-size: 60px;
 }
 
 .text > h2 {
-
+    float: right;
+    font-size: 30px;
 }
 
 .cont {
@@ -73,9 +82,22 @@ h3 {
     left: 0;
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 700px) {
     body {
+        margin: 0 5px;
         width: 100%;
+    }
+    header {
+        height: 100px;
+    }
+    header > img {
+        height: 100px;
+    }
+    .text > h1 {
+        font-size: 20px;
+    }
+    .text > h2 {
+        font-size: 15px;
     }
     .item {
         height: 150px;
@@ -86,6 +108,7 @@ h3 {
     .item > div {
         width: calc(100% - 170px);
         margin-left: 10px;
+        font-size: 10px;
     }
     .item > img {
         width: 150px;
