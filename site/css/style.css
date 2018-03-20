@@ -25,6 +25,7 @@ header > img {
 }
 
 .text {
+    margin-left: 250px;
 }
 
 .text > h1 {
@@ -54,7 +55,7 @@ h3 {
 }
 
 .item > div {
-    text-align: right;  
+    text-align: right;
     width: calc(100% - 335px);
     height: 80%;
     margin-left: 20px;
@@ -93,6 +94,9 @@ h3 {
     }
     header > img {
         height: 100px;
+    }
+    .text {
+        margin-left: 100px;
     }
     .text > h1 {
         font-size: 20px;
