@@ -86,7 +86,7 @@ h3 {
 
 @media screen and (max-width: 700px) {
     body {
-        margin: 0 5px;
+        margin: 0 5px 40px 5px;
         width: 100%;
     }
     header {
@@ -105,15 +105,18 @@ h3 {
         font-size: 15px;
     }
     .item {
-        height: 150px;
+        height: 100%;
     }
     h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
     .item > div {
         width: calc(100% - 170px);
         margin-left: 10px;
-        font-size: 10px;
+        font-size: 8px;
+    }
+    .item:nth-child(even) > div {
+        margin-left: 160px;
     }
     .item > img {
         width: 150px;
