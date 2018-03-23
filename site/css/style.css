@@ -1,44 +1,52 @@
 body, h1, h2, h3, h4, p, a {
-    font-family: Mont;
+  font-family: Mont;
 }
 
 body {
-    
+  margin-bottom: 200px;
 }
 
-header {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 40px 0;
-    height: 250px;
+.item {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  margin: 25px 0;
 }
 
-header > img {
-    position: absolute;
-    left: 0;
-    align-self: flex-start;
-    display: inline-block;
-    height: 250px;
+.item:nth-child(even) {
+  text-align: left;
 }
 
 .item > div {
-  width: 80%;
+  display: inline-block;
+  width: 60%;
+  padding: 0 10px;
+}
+
+.item h3 {
+  font-size: 15px;
+}
+
+.item p {
+  font-size: 10px;
 }
 
 .item > img {
-  width: 20%;
+  display: inline-block;
+  width: 40%;
 }
 
-@media screen and (max-width: 700px) {
-    header {
-        height: 100px;
-    }
-    header > img {
-        height: 100px;
-    }
-    .text {
-      margin-left: 100px;
-    }
+@media screen and (min-width: 500px) {
+
+  .item {
+    margin: 50px 0;
+  }
+  .item h3 {
+    font-size: 35px;
+  }
+  .item p {
+    font-size: 20px;
+  }
 }
