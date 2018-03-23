@@ -23,11 +23,22 @@ header > img {
     height: 250px;
 }
 
+.item > div {
+  width: 80%;
+}
+
+.item > img {
+  width: 20%;
+}
+
 @media screen and (max-width: 700px) {
     header {
         height: 100px;
     }
     header > img {
         height: 100px;
+    }
+    .text {
+      margin-left: 100px;
     }
 }
