@@ -40,6 +40,9 @@ header > img {
   font-size: 15px;
 }
 
+.addthis_inline_follow_toolbox {
+  margin-top: 7px;
+}
 .item {
   height: 100%;
   width: 100%;
