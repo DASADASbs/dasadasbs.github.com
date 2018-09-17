@@ -18,7 +18,7 @@ header {
 
 header > img {
   position: absolute;
-  left: 0;
+  left: 10px;
   align-self: flex-start;
   display: inline-block;
   height: 100px;
@@ -43,10 +43,12 @@ header > img {
 .addthis_inline_follow_toolbox {
   margin-top: 7px;
 }
+
 .item {
   height: 100%;
   width: 100%;
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   text-align: right;
@@ -75,6 +77,20 @@ header > img {
 .item > img {
   display: inline-block;
   width: 40%;
+  margin: 0 20px;
+}
+
+.item:nth-child(8) > img {
+  width: 40%;
+}
+
+.image-item {
+  margin: 20px 0;
+}
+
+.image-item > img {
+  display: inline-block;
+  width: 24%;
 }
 
 @media screen and (min-width: 500px) {
