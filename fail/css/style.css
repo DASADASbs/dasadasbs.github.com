@@ -81,7 +81,7 @@ header > img {
     margin-top: 7px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 720px) {
     body {
         width: 90%;
         margin: auto;
