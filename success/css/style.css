@@ -1,0 +1,123 @@
+body, h1, h2, h3, h4, p, a {
+    font-family: Mont, sans-serif;
+}
+
+body {
+    padding: 0 5px 40px 5px;
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 40px 0;
+    height: 100px;
+}
+
+header > img {
+    position: absolute;
+    left: 10px;
+    align-self: flex-start;
+    display: inline-block;
+    height: 100px;
+}
+
+.cont {
+}
+
+.text {
+    margin-left: 100px;
+}
+
+.text > h1 {
+    font-size: 20px;
+}
+
+.text > h2 {
+    font-size: 15px;
+}
+
+.item {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 20px -0.35em;
+}
+
+.item:nth-child(even) {
+    text-align: right;
+}
+
+.item > div {
+    display: inline-block;
+    width: 80%;
+    padding: 0 10px;
+}
+
+.item h3 {
+    font-size: 15px;
+}
+
+.item p {
+    font-size: 10px;
+}
+
+.item span {
+    margin-left: 25px;
+}
+
+.item a {
+    font-weight: bold;
+}
+
+.addthis_inline_follow_toolbox {
+    margin-top: 7px;
+}
+
+@media screen and (min-width: 720px) {
+    body {
+        width: 90%;
+        margin: auto;
+    }
+
+    header {
+        height: 250px;
+    }
+    header > img {
+        height: 250px;
+    }
+    .text {
+        margin-left: 250px;
+    }
+    .text > h1 {
+        font-size: 60px;
+    }
+    .text > h2 {
+        font-size: 30px;
+    }
+    .cont {
+        margin: 0;
+    }
+    .item {
+        margin: 50px -0.35em;
+    }
+    .item div {
+        width: 70%;
+    }
+    .item h3 {
+        font-size: 35px;
+    }
+    .item p {
+        font-size: 20px;
+    }
+    .item span {
+        margin-left: 50px;
+    }
+}
