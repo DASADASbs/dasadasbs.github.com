@@ -65,6 +65,10 @@ header > img {
   padding: 0 10px;
 }
 
+.item h2 {
+  font-size: 40px;
+}
+
 .item h3 {
   font-size: 15px;
 }
@@ -127,6 +131,10 @@ header > img {
   }
   .item img {
     width: 25%;
+  }
+  .item h2 {
+    font-size: 75px;
+    float: left;
   }
   .item h3 {
     font-size: 35px;
